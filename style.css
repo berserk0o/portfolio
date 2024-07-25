@@ -7,6 +7,12 @@ body{
 background: #d5c3c3;
 }
 
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
 h1 {
     color: #ff8e8e;
     font-size: 100px;
@@ -75,7 +81,7 @@ img {
 .block{
     width: 250px;
     height: 250px;
-    background-color: aqua;
+    background-color: rgb(0, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,4 +96,56 @@ img {
 }
 .video{
     margin-bottom: 50px;
+}
+
+
+
+
+/* Header  */
+
+.header{
+    background-color: #252527;
+}
+
+.menu{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.menu-link{
+    margin: 0 30px 0 0;
+    color: #fff ;
+    font-size: 20px;
+}
+
+.color1:hover{
+    color: red;
+    transition: 500ms;
+    font-size: 50px;
+
+}
+
+.color2:hover{
+    color: rgb(224, 28, 175);
+    transition: 500ms;
+
+}
+
+.color3:hover{
+    color: rgb(42, 52, 126);
+    transition: 500ms;
+    background-color: aqua;
+
+}
+
+.color4:hover{
+    color: rgb(10, 255, 112);
+    transition: 500ms;
+
+}
+
+.color5:hover{
+    color: #4f93e5;
+    transition: 500ms;
 }
